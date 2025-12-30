@@ -22,13 +22,19 @@
 - Centralize configuration and branding in constants that are easy to update.
 - After implementing or changing a feature, check whether `README.md` also needs an update.
 
-### 1.4 Optional development notes
+### 1.4 Development notes
 - When useful (not mandatory), log non-intuitive assumptions/decisions/future work/questions to `agentic_development_docs/agent_communication_docs/`:
   - `assumptions_made_by_agent.md`
   - `design_decision.md`
   - `future_work.md`
   - `questions.md`
 - Create/update development notes only when they help ongoing work (don’t write docs “just because”).
+- Feel free to create new markdown files when useful for logging progress or aiding future implementation.
+
+### 1.5 Post-implementation updates
+
+- After making implementation changes, update relevant project design plan files accordingly.
+- If you discover useful rules during implementation, feel free to append them to `~/.factory/AGENTS.md` file
 
 ## 2) Package manager and runtime rules
 
