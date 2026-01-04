@@ -76,3 +76,4 @@
 - Ollama docs indices: https://docs.ollama.com/llms.txt and https://docs.ollama.com/llms-full.txt
 - Tauri docs: https://tauri.app/llms.txt and https://tauri.app/llms-full.txt (start: https://tauri.app/start/)
 - Agno docs indices: https://docs.agno.com/llms.txt and https://docs.agno.com/llms-full.txt
+- Factory CLI Droid: https://docs.factory.ai/llms.txt and https://docs.factory.ai/llms-full.txt
