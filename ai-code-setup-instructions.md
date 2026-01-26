@@ -39,3 +39,29 @@ This page lists MCP servers that are useful to install when setting up an AI-aug
 - **grep-mcp** — public GitHub/code search
   - Very efficient Github / code search - to find suitable github repositories, or their documentation.
   - Run: `uvx grep-mcp`
+
+## Skills
+
+- **mgrep** — semantic local file search for fast repo exploration.
+  - Prefer this over grep/rg; ask in natural language (e.g., `mgrep "Where is auth handled?"`).
+
+- **prompt-refiner** — rewrites rough task descriptions into clearer, more actionable prompts.
+  - Use when you want tighter constraints / acceptance criteria before handing a task to a model.
+
+- **prompt-refiner-gpt** — prompt refinement patterns tuned for GPT/Codex.
+  - Adds explicit role, step-by-step procedure, and structured output requirements.
+
+- **react-useeffect** — `useEffect` best practices from React docs (and when not to use Effects).
+  - Useful for reviewing hooks code and replacing effect-driven derived state with better patterns.
+
+- **skill-creator** — guidance for creating/updating skills (structure, metadata, resources).
+  - Use when you’re adding a new skill or iterating on an existing one.
+
+- **web-design-guidelines** — UI/UX + accessibility review against Web Interface Guidelines.
+  - Use when you want an audit of UI code for best-practice compliance.
+
+### Optional skills to add
+
+- **planning-with-files** — Manus-style persistent markdown files for planning, progress tracking, and knowledge storage. Use for complex tasks, multi-step projects, research tasks, or anytime you want structured progress tracking.
+  https://github.com/jarrodwatts/claude-code-config/tree/main/skills/planning-with-files
+
