@@ -1,0 +1,15 @@
+.vscode/
+backup/
+bin/
+certs/
+ide/
+logs/
+sessions/
+sounds/
+specs/
+auth.encrypted
+background-processes.json
+config.json
+history.json
+mcp.json
+settings.json

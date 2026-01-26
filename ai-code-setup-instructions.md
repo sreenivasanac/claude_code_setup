@@ -10,6 +10,7 @@ This page lists MCP servers that are useful to install when setting up an AI-aug
   - Needs: `MORPH_API_KEY`
 
 - **context7** — updated library/framework documentation retrieval
+  - avoids LLMs rely on outdated generic library APIs based on year-old training data.
   - MCP Repo: https://github.com/upstash/context7
   - Endpoint: `https://mcp.context7.com/mcp`
   - Needs: Context7 API key/token (set via headers in your MCP config)
@@ -22,11 +23,12 @@ This page lists MCP servers that are useful to install when setting up an AI-aug
   - Needs: `GEMINI_API_KEY`
 
 - **perplexity** — web research / reasoning
-  - Useful when we want latest updated ways to do something. This search comes with citations.
+  - Useful when we want latest updated ways to do something. Perplexity searches top 20 results and gives answer.
   - Run: `npx -y perplexity-mcp`
   - Needs: `PERPLEXITY_API_KEY`
 
 - **brave-search** — web search
+  - Similar to Google search to fetch something quick.
   - Run: `npx -y @brave/brave-search-mcp-server`
   - Needs: `BRAVE_API_KEY`
 
@@ -35,4 +37,5 @@ This page lists MCP servers that are useful to install when setting up an AI-aug
   - Run: `npx -y chrome-devtools-mcp@latest`
 
 - **grep-mcp** — public GitHub/code search
+  - Very efficient Github / code search - to find suitable github repositories, or their documentation.
   - Run: `uvx grep-mcp`
